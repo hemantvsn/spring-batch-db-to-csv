@@ -1,4 +1,4 @@
-package com.spring.batch.DBToCSV.config;
+package com.spring.batch.DBToCSV.config.batch;
 
 import javax.sql.DataSource;
 
