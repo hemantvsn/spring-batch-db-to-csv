@@ -43,7 +43,7 @@ public class BatchConfig {
 
 		Step step = stepBuilderFactory
 				.get("DB_TO_CSV_STEP")
-				.<Preference, Preference>chunk(1)
+				.<Preference, Preference>chunk(10)
 				.reader(reader)
 				.processor(processor)
 				.writer(writer)
